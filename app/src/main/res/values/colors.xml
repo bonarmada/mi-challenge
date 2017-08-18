@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191919</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#110528</color>
+
+    <color name="textColorPrimary">#DA000000</color>
+    <color name="textColorSecondary">#8C000000</color>
+    <color name="textColorWhite">#FFF</color>
+    <color name="textColorWhiteSecondary">#B3FFFFFF</color>
+
+    <color name="magnesium">#B2B2B2</color>
+    <color name="malibu">#69B4D3</color>
+    <color name="light_grey">#D0CFD5</color>
+</resources>

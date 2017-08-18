@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MI-challenge</string>
+
+    <string name="gps_api_key">AIzaSyBw7e3MU5ooJqDL5KWw8GQTr2sGEtuCWCo</string>
+
+    <string name="error_network">Network error. Showing limited content.</string>
+    <string name="error_location">Location permission denied.</string>
+    <string name="retry">Retry</string>
+    <string name="allow">Allow</string>
+</resources>
