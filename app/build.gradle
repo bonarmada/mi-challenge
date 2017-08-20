@@ -44,8 +44,9 @@ dependencies {
      * image caching, database
      */
 
-    compile 'com.google.android.gms:play-services:9.0.0'
-    compile 'com.google.android.gms:play-services-maps:9.0.0'
+    compile 'com.google.android.gms:play-services:11.0.4'
+    compile 'com.google.android.gms:play-services-maps:11.0.4'
+    compile 'com.google.android.gms:play-services-places:11.0.4'
 
     // ButterKnife
     compile 'com.jakewharton:butterknife:8.7.0'

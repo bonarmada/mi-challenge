@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements DeliveryListFragm
     public void onItemClick(int id) {
         DeliveryDetailFragment deliveryDetailFragment= (DeliveryDetailFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.detailFragment);
-        
+
         // Check whether fragment exists within the activity.. aka multi pane mode.
         if (deliveryDetailFragment != null){
             deliveryDetailFragment.onListItemSelected(id);
