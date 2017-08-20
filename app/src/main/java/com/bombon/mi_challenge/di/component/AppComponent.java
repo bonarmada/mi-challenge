@@ -1,10 +1,11 @@
 package com.bombon.mi_challenge.di.component;
 
 import com.bombon.mi_challenge.activity.MainActivity;
-import com.bombon.mi_challenge.activity.MapActivity;
 import com.bombon.mi_challenge.di.module.DaoModule;
 import com.bombon.mi_challenge.di.module.RemoteModule;
 import com.bombon.mi_challenge.di.scope.AppScope;
+import com.bombon.mi_challenge.fragment.DeliveryDetailFragment;
+import com.bombon.mi_challenge.fragment.DeliveryListFragment;
 
 import dagger.Component;
 
@@ -17,5 +18,6 @@ import dagger.Component;
 
 public interface AppComponent {
     void inject(MainActivity activity);
-    void inject(MapActivity activity);
+    void inject(DeliveryDetailFragment fragment);
+    void inject(DeliveryListFragment fragment);
 }
